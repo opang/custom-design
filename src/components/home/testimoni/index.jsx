@@ -9,7 +9,7 @@ const Testimoni = () => {
                 <div className="w-[55px] h-[3px] bg-red-500 m-auto my-5 mb-14"></div>
                 <div className=" mb-[100px]  grid grid-cols-1 gap-8 px-8 md:grid-cols-2 lg:grid-cols-3">
                     <div className="p-8 shadow rounded-xl">
-                        <p className="text-slate-700">"Lectus, nonummy et. Occaecat delectus erat, minima dapibus ornare nunc, autem."</p>
+                        <p className="text-slate-700">Lectus, nonummy et. Occaecat delectus erat, minima dapibus ornare nunc, autem.</p>
                         <div className="flex gap-2 py-5">
                             <Image src="/star-solid.svg" width={17} height={17} alt="star"/>
                             <Image src="/star-solid.svg" width={17} height={17} alt="star"/>
@@ -23,7 +23,7 @@ const Testimoni = () => {
                     </div>
 
                     <div className="p-8 shadow rounded-xl">
-                        <p className="text-slate-700">"Lectus, nonummy et. Occaecat delectus erat, minima dapibus ornare nunc, autem."</p>
+                        <p className="text-slate-700">Lectus, nonummy et. Occaecat delectus erat, minima dapibus ornare nunc, autem.</p>
                         <div className="flex gap-2 py-5">
                             <Image src="/star-solid.svg" width={17} height={17} alt="star"/>
                             <Image src="/star-solid.svg" width={17} height={17} alt="star"/>
@@ -37,7 +37,7 @@ const Testimoni = () => {
                     </div>
 
                     <div className="p-8 shadow rounded-xl">
-                        <p className="text-slate-700">"Lectus, nonummy et. Occaecat delectus erat, minima dapibus ornare nunc, autem."</p>
+                        <p className="text-slate-700">Lectus, nonummy et. Occaecat delectus erat, minima dapibus ornare nunc, autem.</p>
                         <div className="flex gap-2 py-5">
                             <Image src="/star-solid.svg" width={17} height={17} alt="star"/>
                             <Image src="/star-solid.svg" width={17} height={17} alt="star"/>
