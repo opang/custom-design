@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Navbar } from "flowbite-react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 
 export default function Navbarr(){
@@ -10,7 +11,7 @@ export default function Navbarr(){
         <>
             <Navbar fluid style={{backgroundColor:"whitesmoke"}}>
                 <Navbar.Brand as={Link} href="/" className="p-5 ">
-                    <img src="/print-1.svg" alt=""/>
+                    <Image src="/print-1.svg" width={110} height={110} alt="img"/>
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="p-5 text-slate-800">
