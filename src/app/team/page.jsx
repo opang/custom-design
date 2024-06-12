@@ -16,7 +16,7 @@ const onFetchData = async() => {
 const Team = async() => {
     const posts = await onFetchData()
     return(
-        <section style={{backgroundColor:"whitesmoke"}}>
+        <section className="bg-[whitesmoke]">
             <div>
                 <div className="text-slate-700 text-2xl md:text-4xl font-semibold flex flex-col items-center gap-8 pt-16 px-3">
                     <h1 className="text-center">We have a dedicated team committed <br/ > to <span className="bg-red-200 rounded-lg">supporting</span>  both you and your business</h1>
@@ -29,7 +29,7 @@ const Team = async() => {
                                 return(
                                     <div className="text-slate-700 shadow-md w-[300px] p-5 text-center" key={item + index}>
                                         <Image src={item.picture.large} width={300} height={300} alt="img" className="rounded"/>
-                                        <h5 className="text-xl font-semibold pt-4">{item.name.first}</h5>
+                                        <h1 className="text-xl font-semibold pt-4">{item.name.first}</h1>
                                         <p className="text-sm pt-1">{item.location.country}</p>
                                     </div>
                                 )

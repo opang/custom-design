@@ -16,7 +16,7 @@ const onFetchData = async() => {
 const MeetOurTeam = async() => {
     const posts = await onFetchData()
     return(
-        <section style={{backgroundColor:"whitesmoke"}}>
+        <section className="bg-[whitesmoke]">
             <div>
                 <div className="text-slate-700 text-2xl md:text-4xl font-semibold flex flex-col items-center gap-8 pt-16 px-3">
                     <h1>Meet Our Creative Team</h1>

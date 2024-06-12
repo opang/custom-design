@@ -5,7 +5,7 @@ import BestQualityy from "@/components/about/besetQuality"
 const About = () => {
     return(
         < >
-            <section style={{backgroundColor:"whitesmoke"}}>
+            <section className="bg-[whitesmoke]">
                 <div className="text-slate-700 p-14">
                     <h1 className="font-bold text-5xl text-center">About Us</h1>
                     

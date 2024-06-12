@@ -9,7 +9,7 @@ import Team from "@/components/home/team";
 export default function Home() {
   return (
     <>
-      <section className="pt-10" style={{backgroundColor: "whitesmoke"}}>
+      <section className="pt-10 bg-[whitesmoke]" >
         <div className=" flex flex-col justify-center items-center gap-10 md:flex-row max-w-[1340px] m-auto">
           <div className=" flex flex-col justify-center p-5 basis-1/2">
             <div className="w-[55px] h-[3px] bg-red-500 mb-5"></div>

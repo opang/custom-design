@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function BestQuality(){
     return(
         <div>
-            <section className="flex items-center justify-center" style={{backgroundColor:"whitesmoke"}}>
+            <section className="flex items-center justify-center bg-[whitesmoke]">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-8 md:p-14 lg:grid-cols-4 max-w-[1340px]">
                     <div className="flex flex-col items-center">
                         <div className="">
