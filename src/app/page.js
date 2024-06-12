@@ -16,7 +16,7 @@ export default function Home() {
             <h5 className="font-semibold text-slate-700 mb-5">Best Quality Products</h5>
             <h1 className="font-bold text-slate-700 text-[30px] md:text-[60px]  md:leading-[60px] mb-5">We Print What<br/> You Want!</h1>
             <p className=" text-slate-700 mb-8">Our designs can be used across multiple printed products, which makes it easier for you to create consistent, professional marketing.</p>
-            <Link href="/" className="text-white font-semibold bg-red-500 px-8 py-2 rounded w-[180px] text-center hover:bg-red-600">GET STARTED</Link>
+            <Link href="/" className="text-white font-semibold bg-red-700 px-8 py-2 rounded w-[180px] text-center hover:bg-red-600">GET STARTED</Link>
             
           </div>
           <div className="p-5 ">

@@ -10,7 +10,7 @@ export default function BestQuality(){
                         <div className="">
                         <Image src="/shipping.png" width={60} height={60} alt="image" className="w-auto h-auto"/>
                         </div>
-                        <h5 className="font-semibold text-slate-700 text-xl py-5">Worldwide Shipping</h5>
+                        <h1 className="font-semibold text-slate-700 text-xl py-5">Worldwide Shipping</h1>
                         <p className="text-slate-700 text-center">It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
 
@@ -18,7 +18,7 @@ export default function BestQuality(){
                         <div className="">
                         <Image src="/badge.png" width={60} height={60} alt="image" className="w-auto h-auto"/>
                         </div>
-                        <h5 className="font-semibold text-slate-700 text-xl py-5">Best Quality</h5>
+                        <h1 className="font-semibold text-slate-700 text-xl py-5">Best Quality</h1>
                         <p className="text-slate-700 text-center">It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
 
@@ -26,7 +26,7 @@ export default function BestQuality(){
                         <div className="">
                         <Image src="/discount.png" width={60} height={60} alt="image" className="w-auto h-auto"/>
                         </div>
-                        <h5 className="font-semibold text-slate-700 text-xl py-5">Best Offers</h5>
+                        <h1 className="font-semibold text-slate-700 text-xl py-5">Best Offers</h1>
                         <p className="text-slate-700 text-center">It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
 
@@ -34,7 +34,7 @@ export default function BestQuality(){
                         <div className="">
                         <Image src="/lock.png" width={60} height={60} alt="image" className="w-auto h-auto"/>
                         </div>
-                        <h5 className="font-semibold text-slate-700 text-xl py-5">Secure Payments</h5>
+                        <h1 className="font-semibold text-slate-700 text-xl py-5">Secure Payments</h1>
                         <p className="text-slate-700 text-center">It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     </div>
                 

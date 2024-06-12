@@ -16,13 +16,13 @@ export default function Navbarr(){
                 <Navbar.Toggle />
                 <Navbar.Collapse className="p-5 text-slate-800">
                     <Navbar.Link as={Link} href="/" className="bg-[whitesmoke]">
-                        <p className={`link ${pathName === '/' ? 'text-red-500 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>HOME</p>
+                        <p className={`link ${pathName === '/' ? 'text-red-700 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>HOME</p>
                     </Navbar.Link>
                     <Navbar.Link as={Link} href="/about"  className="bg-[whitesmoke]">
-                        <p className={`link ${pathName === '/about' ? 'text-red-500 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>ABOUT</p>
+                        <p className={`link ${pathName === '/about' ? 'text-red-800 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>ABOUT</p>
                     </Navbar.Link>
                     <Navbar.Link as={Link} href="/team"  className="bg-[whitesmoke]">
-                        <p className={`link ${pathName === '/team' ? 'text-red-500 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>OUR TEAM</p>
+                        <p className={`link ${pathName === '/team' ? 'text-red-800 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>OUR TEAM</p>
                     </Navbar.Link>
                    
 

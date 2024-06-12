@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5 p-14">
                 <div>
                    <Image src="/print-favicon.png" width={70} height={70} alt="fav"/> 
-                   <h4 className="text-white text-lg py-5">Custom Print Store</h4>
+                   <h1 className="text-white text-lg py-5">Custom Print Store</h1>
                    <div className="flex gap-5 md:mb-5">
                         <Image src="/instagram.svg" width={15} height={15} className="cursor-pointer"  alt="ig"/>
                         <Image src="/twitter.svg" width={15} height={15} className="cursor-pointer" alt="tiwt"/>
@@ -16,11 +16,11 @@ const Footer = () => {
                    </div>
                 </div>
                 <div className="text-white">
-                    <h5 className="font-semibold text-lg pb-5">Get in Touch with Us for the Best Quality Custom Prints & Supplies.</h5>
+                    <h1 className="font-semibold text-lg pb-5">Get in Touch with Us for the Best Quality Custom Prints & Supplies.</h1>
                     <p className="text-sm">Qui dolore ipsum quia dolor sit amet, consec tetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
                 </div>
                 <div className="text-white">
-                    <h5 className="font-semibold text-lg pb-5">Quick Links</h5>
+                    <h1 className="font-semibold text-lg pb-5">Quick Links</h1>
                     <div className="flex flex-col gap-1">
                         <Link href="/" className="hover:text-red-500 text-sm">Know More About Us</Link>
                         <Link href="/" className="hover:text-red-500 text-sm">Visit Store</Link>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-white">
-                    <h5 className="font-semibold text-lg pb-5">Important Links</h5>
+                    <h1 className="font-semibold text-lg pb-5">Important Links</h1>
                     <div className="flex flex-col gap-1">
                         <Link href="/" className="hover:text-red-500 text-sm">Privacy Policy</Link>
                         <Link href="/" className="hover:text-red-500 text-sm">Shipping Details</Link>
