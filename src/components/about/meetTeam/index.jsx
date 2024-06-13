@@ -29,7 +29,7 @@ const MeetOurTeam = async() => {
                                 return(
                                     <div className="text-slate-700 shadow-md w-[300px] p-5 text-center" key={item + index}>
                                         <Image src={item.picture.large} width={300} height={300} alt="img" className="rounded"/>
-                                        <h5 className="text-xl font-semibold pt-4">{item.name.first}</h5>
+                                        <h1 className="text-xl font-semibold pt-4">{item.name.first}</h1>
                                         <p className="text-sm pt-1">{item.location.country}</p>
                                     </div>
                                 )
