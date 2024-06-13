@@ -24,6 +24,9 @@ export default function Navbarr(){
                     <Navbar.Link as={Link} href="/team"  className="bg-[whitesmoke]">
                         <p className={`link ${pathName === '/team' ? 'text-red-800 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>OUR TEAM</p>
                     </Navbar.Link>
+                    <Navbar.Link as={Link} href="/shop"  className="bg-[whitesmoke]">
+                        <p className={`link ${pathName === '/shop' ? 'text-red-800 text-[16px] font-semibold' : 'text-[16px] font-semibold hover:text-red-500'}`}>ALL PRODUCTS</p>
+                    </Navbar.Link>
                    
 
                 </Navbar.Collapse>
