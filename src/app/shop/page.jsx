@@ -54,14 +54,14 @@ export default function Shop(){
                 </div>
             </div>
 
-            <div className="ml-5 mr-5">
+            <div className="ml-5 mr-5 mb-20">
                 <h1 className="text-slate-700 text-2xl font-semibold pb-5">Categories</h1>
                 <div className="flex justify-between pb-5">
-                    <p className="text-red-500 font-semibold">Mugs</p>
+                    <p className="text-red-800 font-semibold">Mugs</p>
                     <p>(5)</p>
                 </div>
                 <div className="flex justify-between">
-                    <p className="text-red-500 font-semibold">Tshirts</p>
+                    <p className="text-red-800 font-semibold">Tshirts</p>
                     <p>(5)</p>
                 </div>
                 <p className="text-slate-700 text-2xl font-semibold mt-8">Hottest Deals</p>
